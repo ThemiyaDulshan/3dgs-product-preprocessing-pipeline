@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+data/raw_videos/
+data/extracted_frames/
+data/processed/
+data/masks/
+
+*.mp4
+*.mov
+*.avi
+
+.DS_Store
+.vscode/
