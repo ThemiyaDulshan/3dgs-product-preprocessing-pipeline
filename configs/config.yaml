@@ -1,0 +1,13 @@
+video:
+  fps: 3
+
+  image_format: jpg
+
+  jpeg_quality: 95
+
+paths:
+  input_video: data/raw_videos
+
+  output_frames: data/extracted_frames
+
+  reports: reports
