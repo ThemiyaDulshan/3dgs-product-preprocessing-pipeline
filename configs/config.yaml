@@ -11,3 +11,11 @@ paths:
   output_frames: data/extracted_frames
 
   reports: reports
+
+  manifests: data/manifests
+
+validation:
+  supported_formats:
+    - jpg
+    - jpeg
+    - png
