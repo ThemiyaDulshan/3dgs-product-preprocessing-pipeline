@@ -1,0 +1,9 @@
+{
+    "total_images": 310,
+    "kept_images": 131,
+    "rejected_images": 179,
+    "average_blur_score": 25.95,
+    "minimum_blur_score": 8.0,
+    "maximum_blur_score": 59.04,
+    "threshold": 25
+}

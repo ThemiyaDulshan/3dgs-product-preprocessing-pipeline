@@ -12,33 +12,25 @@ class ImageValidator:
     def validate(self):
 
         result = {
+
     "image_id": None,
+
     "filename": self.image_path.name,
+
     "filepath": str(self.image_path),
 
     "valid": False,
+
     "width": None,
+
     "height": None,
+
     "format": None,
+
     "file_size_kb": None,
 
-    "blur_score": None,
-    "is_blurry": None,
-
-    "duplicate_group": None,
-    "keep_image": None,
-
-    "brightness": None,
-    "contrast": None,
-    "is_overexposed": None,
-    "is_underexposed": None,
-
-    "mask_path": None,
-    "mask_generated": None,
-
-    "selected": True,
-
     "error": None
+
 }
 
         try:

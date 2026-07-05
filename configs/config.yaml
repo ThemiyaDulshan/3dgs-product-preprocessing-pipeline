@@ -19,3 +19,10 @@ validation:
     - jpg
     - jpeg
     - png
+
+blur:
+  method: laplacian
+
+  threshold: 25
+
+  save_preview: true

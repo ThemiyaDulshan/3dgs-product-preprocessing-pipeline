@@ -9,42 +9,18 @@ class ManifestGenerator:
     """
 
     COLUMNS = [
-        # Basic information
-        "image_id",
-        "filename",
-        "filepath",
+    "image_id",
+    "filename",
+    "filepath",
 
-        # Validation
-        "valid",
-        "width",
-        "height",
-        "format",
-        "file_size_kb",
+    "valid",
+    "width",
+    "height",
+    "format",
+    "file_size_kb",
 
-        # Blur Detection
-        "blur_score",
-        "is_blurry",
-
-        # Duplicate Detection
-        "duplicate_group",
-        "keep_image",
-
-        # Exposure Analysis
-        "brightness",
-        "contrast",
-        "is_overexposed",
-        "is_underexposed",
-
-        # Segmentation
-        "mask_path",
-        "mask_generated",
-
-        # Final Selection
-        "selected",
-
-        # Errors
-        "error"
-    ]
+    "error"
+]
 
     def __init__(self):
         self.records = []
