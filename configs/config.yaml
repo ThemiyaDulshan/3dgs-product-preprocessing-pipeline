@@ -14,6 +14,8 @@ paths:
 
   manifests: data/manifests
 
+  manifest: data/manifests/shoe_manifest.csv
+
 validation:
   supported_formats:
     - jpg
@@ -26,3 +28,8 @@ blur:
   threshold: 25
 
   save_preview: true
+
+duplicates:
+  method: phash
+
+  threshold: 5
