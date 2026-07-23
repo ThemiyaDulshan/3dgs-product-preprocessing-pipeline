@@ -40,3 +40,12 @@ exposure:
   brightness_high: 190
 
   contrast_low: 25
+
+selection:
+  reject_blurry: true
+
+  reject_duplicates: true
+
+  reject_overexposed: false
+
+  reject_underexposed: false
