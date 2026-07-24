@@ -8,6 +8,7 @@ data/raw_videos/
 data/extracted_frames/
 data/processed/
 data/masks/
+data/selected/
 
 *.mp4
 *.mov
